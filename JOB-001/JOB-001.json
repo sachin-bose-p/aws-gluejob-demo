@@ -1,7 +1,7 @@
 {
   "name" : "JOB-001",
   "jobMode" : "SCRIPT",
-  "description" : "Sample JOB",
+  "description" : "",
   "role" : "arn:aws:iam::976721840499:role/aws-glue-etl-job-role",
   "executionProperty" : {
     "maxConcurrentRuns" : 1
@@ -13,7 +13,6 @@
   },
   "defaultArguments" : {
     "--enable-metrics" : "true",
-    "--enable-spark-ui" : "true",
     "--spark-event-logs-path" : "s3://aws-glue-assets-976721840499-us-east-1/sparkHistoryLogs/",
     "--enable-job-insights" : "false",
     "--enable-observability-metrics" : "true",
