@@ -1,7 +1,7 @@
 {
   "name" : "JOB-001",
   "jobMode" : "SCRIPT",
-  "description" : "",
+  "description" : "Sample JOB",
   "role" : "arn:aws:iam::976721840499:role/aws-glue-etl-job-role",
   "executionProperty" : {
     "maxConcurrentRuns" : 1
