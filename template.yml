@@ -8,7 +8,7 @@ Resources:
         Name: glueetl
         ScriptLocation: s3://aws-jobs-test/script/J.py
       DefaultArguments:
-        "--TempDir": "s3://mycodepipelinebucket13/temp/"
+        "--TempDir": "s3://aws-jobs-test/temp/"
       GlueVersion: "2.0"
       WorkerType: G.1X
       NumberOfWorkers: 3
