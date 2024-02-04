@@ -6,7 +6,7 @@ Resources:
       Role: !GetAtt GlueServiceRole.Arn
       Command:
         Name: glueetl
-        ScriptLocation: s3://aws-jobs-test/script/J.py
+        ScriptLocation: s3://aws-jobs-test/scripts/J.py
       DefaultArguments:
         "--TempDir": "s3://aws-jobs-test/temp/"
       GlueVersion: "4.0"
