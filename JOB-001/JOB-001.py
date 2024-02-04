@@ -22,8 +22,6 @@ df = glueContext.create_dynamic_frame.from_options(
     format_options={"withHeader": True}
 )
 
-
-
 # Convert to JSON format
 json_path = "s3://aws-jobs-test/output/target-data.json"
 glueContext.write_dynamic_frame.from_options(
