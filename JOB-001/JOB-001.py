@@ -13,7 +13,7 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-# Read data directly from S3
+# Read data directly from S3 for the JSON Convert.
 source_path = "s3://aws-jobs-test/input/product_data.csv"
 df = glueContext.create_dynamic_frame.from_options(
     connection_type="s3",
