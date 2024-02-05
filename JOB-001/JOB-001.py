@@ -11,7 +11,7 @@ sc = SparkContext()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 job = Job(glueContext)
-job.init(args['JOB_NAME'], args)
+job.init(args['JOB_NAME'], args);
 
 # Read data directly from S3 for the JSON Convert
 source_path = "s3://aws-jobs-test/input/product_data.csv"
